@@ -1,0 +1,16 @@
+messages:
+  no_permission: "&cYou don't have permission to use this command."
+  usage: "&eUsage: /ft <start|pause|stop>"
+  countdown: "&eThe speedrun starts in &c%time% &eseconds!"
+  started: "&aIt begins! Good luck!"
+  paused: "&eThe timer is paused. The game is frozen."
+  resumed: "&aThe timer has resumed!"
+  stopped: "&cThe timer has been stopped and reset."
+  finished: "&6&lGG! &b%player% &efinished the game in &a%time% &e!"
+
+bossbar:
+  stopped: "&7Waiting to start... (/ft start)"
+  countdown: "&eStarting in: &c%time%s"
+  running: "&aTime: &f%time%"
+  paused: "&e[PAUSED] Time: &f%time%"
+  finished: "&6VICTORY! Final time: &f%time%"

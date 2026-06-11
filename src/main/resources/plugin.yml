@@ -1,0 +1,17 @@
+name: FlowTimer
+version: '${version}'
+
+main: dev.flowhost.flowtimer.FlowTimer
+api-version: '1.21.10'
+load: POSTWORLD
+
+website: https://github.com/SkillFXX/
+
+commands:
+  ft:
+    description: "Main FlowTimer Control"
+    aliases: [flowtimer, timer, speedrun]
+permissions:
+  flowtimer.admin:
+    description: Allows you to use the timer controls.
+    default: op
